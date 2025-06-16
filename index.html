@@ -1,0 +1,189 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ringside Ventures | Investment & Consulting</title>
+  <meta name="description" content="Ringside Ventures: Investment and consulting for founders and funds.">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #0a2342;
+      --accent: #f7b32b;
+      --bg: #f9f9f9;
+      --text: #222;
+      --max-width: 900px;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: 'Lato', Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    header {
+      background: var(--primary);
+      color: #fff;
+      padding: 2.5rem 0 2rem 0;
+      text-align: center;
+    }
+    header h1 {
+      font-family: 'Montserrat', Arial, sans-serif;
+      font-size: 2.5rem;
+      margin: 0 0 0.5rem 0;
+      letter-spacing: 1px;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin: 0;
+      color: #e0e6ed;
+    }
+    nav {
+      margin-top: 1.5rem;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 1.2rem;
+      font-weight: 700;
+      font-family: 'Montserrat', Arial, sans-serif;
+      font-size: 1rem;
+      transition: color 0.2s;
+    }
+    nav a:hover {
+      color: var(--accent);
+    }
+    main {
+      max-width: var(--max-width);
+      margin: 2.5rem auto;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 2px 16px rgba(10,35,66,0.07);
+      padding: 2.5rem 2rem;
+    }
+    section {
+      margin-bottom: 2.5rem;
+    }
+    h2 {
+      font-family: 'Montserrat', Arial, sans-serif;
+      color: var(--primary);
+      font-size: 1.5rem;
+      margin-bottom: 0.7rem;
+      margin-top: 0;
+    }
+    .cta {
+      display: inline-block;
+      background: var(--accent);
+      color: var(--primary);
+      font-weight: 700;
+      font-family: 'Montserrat', Arial, sans-serif;
+      padding: 0.9rem 2.2rem;
+      border-radius: 30px;
+      text-decoration: none;
+      font-size: 1.1rem;
+      margin-top: 1.5rem;
+      box-shadow: 0 2px 8px rgba(247,179,43,0.08);
+      transition: background 0.2s, color 0.2s;
+    }
+    .cta:hover {
+      background: #ffe3a3;
+      color: #0a2342;
+    }
+    .team {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      margin-top: 1.2rem;
+    }
+    .member {
+      flex: 1 1 220px;
+      background: #f4f7fa;
+      border-radius: 8px;
+      padding: 1.2rem;
+      text-align: center;
+      box-shadow: 0 1px 4px rgba(10,35,66,0.04);
+    }
+    .member img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 0.7rem;
+      border: 2px solid var(--accent);
+    }
+    .member h3 {
+      margin: 0.2rem 0 0.1rem 0;
+      font-size: 1.1rem;
+      font-family: 'Montserrat', Arial, sans-serif;
+      color: var(--primary);
+    }
+    .member p {
+      margin: 0;
+      font-size: 0.97rem;
+      color: #444;
+    }
+    footer {
+      text-align: center;
+      color: #888;
+      font-size: 0.97rem;
+      padding: 2rem 0 1.2rem 0;
+      background: #f4f7fa;
+      border-top: 1px solid #e5e9ef;
+    }
+    @media (max-width: 700px) {
+      main { padding: 1.2rem 0.7rem; }
+      .team { flex-direction: column; gap: 1.2rem; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ringside Ventures</h1>
+    <p>Investment & Consulting for Founders and Funds</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#team">Team</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <section id="about">
+      <h2>About Us</h2>
+      <p>
+        Ringside Ventures partners with exceptional founders and fund managers, providing guidance and industry expertise.
+      </p>
+    </section>
+    <section id="services">
+      <h2>What We Do</h2>
+      <ul>
+        <li><strong>Consulting:</strong> Strategic finance, fundraising, and operational excellence for founders and teams.</li>
+        <li><strong>Network Access:</strong> Connections to top-tier investors, operators, and partners.</li>
+        <li><strong>Venture Investments:</strong> Strategic capital for high-potential startups.</li>
+      </ul>
+    </section>
+    <section id="team">
+      <h2>About Us</h2>
+      <div class="team">
+        <div class="member">
+          <h3>Natalie Luu</h3>
+          <p>Founder and Partner<br>Venture investor in AI, SaaS, Fintech, and Web3. Spent 15+ years in tech & finance. Stanford Engineering BS & MS grad and San Francisco native.</p>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>
+        Interested in working with us? Email <a href="mailto:natalie@ringsidecap.com">natalie@ringsidecap.com</a> or use the button below.
+      </p>
+      <a class="cta" href="mailto:natalie@ringsidecap.com">Get in Touch</a>
+    </section>
+  </main>
+  <footer>
+    &copy; 2025 Ringside Ventures. All rights reserved.
+  </footer>
+</body>
+</html>  
